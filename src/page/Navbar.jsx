@@ -1,4 +1,5 @@
-import { Search } from '@material-ui/icons';
+import { Badge } from '@material-ui/core';
+import { Search, WorkOutlineSharp } from '@material-ui/icons';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -20,19 +21,37 @@ const Left = styled.div`
 `
 const Center = styled.div `
     flex: 1;   
+    text-align: center;
 `
 const Right = styled.div `
     flex: 1;
+    display: flex;
+    align-item: center;
+    justify-content: flex-end;
 `
 const Language = styled.span`
     font-size: 14;
     cursor: pointer;
 `
 const SearchContainer = styled.div`
-    border: 1px solid lightgray;
+    border: 0.5px solid white;
     display: flex;
-    align - items: center;
-    
+    align-items: center;
+    margin-left: 25px;
+    padding: 5px;
+`
+const Input = styled.input`
+    border: none;
+`
+const Logo = styled.h1`
+    font-weight: bold;
+`
+const ItemMenu = styled.div`
+    font-size: 14;
+    cursor: pointer;
+    margin-left: 25px;
+    align-items: center;
+    margin-top: 10px;
 `
 
 //  Our Navbar
@@ -40,15 +59,31 @@ const Navbar = () => {
   return (
     <Container>
         <Wrapper>
+            {/* Left sections */}
             <Left>
                 <Language>INA</Language>
                 <SearchContainer>
-                    Input
-                    <Search/>
+                    <Input/>
+                    <Search style={{ color: 'white', fontSize: 20 }} />
                 </SearchContainer>
             </Left>
-            <Center>Center</Center>
-            <Right>Right</Right>
+            {/* Center sections */}
+            <Center>
+                <Logo>
+                    Tenun.
+                </Logo>
+            </Center>
+            {/* Right sections */}
+            <Right>
+                <ItemMenu>SIGN UP</ItemMenu>
+                <ItemMenu>LOG IN</ItemMenu>
+                <ItemMenu>
+                    <Badge badgeContent={4} color='primary'>
+                    <WorkOutlineSharp/>
+                    </Badge>
+                </ItemMenu>
+            </Right>
+
         </Wrapper>
     </Container>
   )
