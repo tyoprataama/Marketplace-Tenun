@@ -26,7 +26,7 @@ const Center = styled.div `
 const Right = styled.div `
     flex: 1;
     display: flex;
-    align-item: center;
+    align-items: center;
     justify-content: flex-end;
 `
 const Language = styled.span`
@@ -45,13 +45,13 @@ const Input = styled.input`
 `
 const Logo = styled.h1`
     font-weight: bold;
+    cursor: pointer;
 `
 const ItemMenu = styled.div`
     font-size: 14;
     cursor: pointer;
     margin-left: 25px;
     align-items: center;
-    margin-top: 10px;
 `
 
 //  Our Navbar

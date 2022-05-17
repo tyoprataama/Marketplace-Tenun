@@ -9411,6 +9411,11 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
+"react-moving-text@^0.0.7":
+  "integrity" "sha512-WA72if8QS2/QVOmZ2mDnWu1UFkMqt7Y1TFLfKT3MDRwPbcpz2F7WAyGi349anuKth0bQKg0CQddlQLQQiII8zQ=="
+  "resolved" "https://registry.npmjs.org/react-moving-text/-/react-moving-text-0.0.7.tgz"
+  "version" "0.0.7"
+
 "react-refresh@^0.8.3", "react-refresh@>=0.8.3 <0.10.0":
   "integrity" "sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg=="
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.8.3.tgz"
@@ -10850,7 +10855,7 @@
     "loader-utils" "^2.0.0"
     "schema-utils" "^2.7.0"
 
-"styled-components@^5.3.5", "styled-components@>= 2":
+"styled-components@^5.3.5", "styled-components@>= 2", "styled-components@>= 4":
   "integrity" "sha512-ndETJ9RKaaL6q41B69WudeqLzOpY1A/ET/glXkNZ2T7dPjPqpPCXXQjDFYZWwNnE5co0wX+gTCqx9mfxTmSIPg=="
   "resolved" "https://registry.npmjs.org/styled-components/-/styled-components-5.3.5.tgz"
   "version" "5.3.5"
