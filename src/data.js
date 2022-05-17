@@ -24,3 +24,21 @@ export const ItemsSlider = [
         bg: 'fff'
     }
 ];
+
+export const categories = [
+    {
+        id: 1,
+        img: 'https://i.ibb.co/d5YjVSV/Categories1.png',
+        title: 'MEN'
+    },
+    {
+        id: 2,
+        img: 'https://i.ibb.co/LzS2P9s/Categories3.png',
+        title: 'CASUAL STYLE'
+    },
+    {
+        id: 3,
+        img: 'https://i.ibb.co/85sT6Pg/Categories2.png',
+        title: 'WOMEN'
+    },
+]

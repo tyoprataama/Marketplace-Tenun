@@ -4,14 +4,14 @@ import MovingText from 'react-moving-text';
 
 const Container = styled.div`
     height: 30px;
-    background-color: #FFD24C;
-    color: black;
+    background-color: #000;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 14px;
     font-weight: 500;
-`
+`;
 const Info = () => {
   return (
     <Container>

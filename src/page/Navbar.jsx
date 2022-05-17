@@ -6,53 +6,53 @@ import styled from 'styled-components';
 //  Styled sections
 const Container = styled.div`
     height: 60px;
-    background-color: #131921;
-`
+    background-color: #fff;
+`;
 const Wrapper = styled.div`
     padding: 10px 20px;
-    color: white;
+    color: #000;
     display: flex;
     justify-content: space-between;
-`
+`;
 const Left = styled.div`
     flex: 1;
     display: flex;
     align-items: center;
-`
+`;
 const Center = styled.div `
     flex: 1;   
     text-align: center;
-`
+`;
 const Right = styled.div `
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-`
+`;
 const Language = styled.span`
     font-size: 14;
     cursor: pointer;
-`
+`;
 const SearchContainer = styled.div`
-    border: 0.5px solid white;
+    border: 0.5px solid black;
     display: flex;
     align-items: center;
     margin-left: 25px;
     padding: 5px;
-`
+`;
 const Input = styled.input`
     border: none;
-`
+`;
 const Logo = styled.h1`
     font-weight: bold;
     cursor: pointer;
-`
+`;
 const ItemMenu = styled.div`
     font-size: 14;
     cursor: pointer;
     margin-left: 25px;
     align-items: center;
-`
+`;
 
 //  Our Navbar
 const Navbar = () => {
@@ -64,7 +64,7 @@ const Navbar = () => {
                 <Language>EN</Language>
                 <SearchContainer>
                     <Input/>
-                    <Search style={{ color: 'white', fontSize: 20 }} />
+                    <Search style={{ color: 'black', fontSize: 20 }} />
                 </SearchContainer>
             </Left>
             {/* Center sections */}

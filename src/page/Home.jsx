@@ -1,4 +1,5 @@
 import React from 'react';
+import Categories from './Categories';
 import Info from './Info';
 import Navbar from './Navbar';
 import Slider from './Slider';
@@ -9,6 +10,7 @@ const Home = () => {
           <Info/>
           <Navbar/>
           <Slider/>
+          <Categories/>
       </div>
   )
 }
