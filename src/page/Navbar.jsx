@@ -61,7 +61,7 @@ const Navbar = () => {
         <Wrapper>
             {/* Left sections */}
             <Left>
-                <Language>INA</Language>
+                <Language>EN</Language>
                 <SearchContainer>
                     <Input/>
                     <Search style={{ color: 'white', fontSize: 20 }} />
