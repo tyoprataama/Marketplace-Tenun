@@ -14,6 +14,8 @@ const Image = styled.img `
     object-fit: cover;
 `;
 const Title = styled.h1 `
+    color: #fff;
+    margin-bottom: 20px;
 `;
 const Detail = styled.div `
     position: absolute;
@@ -21,8 +23,18 @@ const Detail = styled.div `
     left: 0;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 `;
 const Button = styled.button `
+    border: none;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
 `;
 
 const CategoryItems = ({item}) => {
