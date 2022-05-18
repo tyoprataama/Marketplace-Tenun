@@ -56,6 +56,7 @@ const ImageContainer = styled.div`
 `;
 const Title =  styled.h1`
     font-size: 45px;
+    font-weight: 500;
 `;
 const Description = styled.p `
     margin: 50px 0px;

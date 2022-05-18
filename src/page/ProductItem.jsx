@@ -3,6 +3,21 @@ import React from 'react'
 import styled from 'styled-components';
 
 //  Styled sections
+const Details = styled.div `
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.2);
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+  cursor: pointer;
+`;
 const Container = styled.div`
   flex: 1;
   margin: 5px;
@@ -12,6 +27,10 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
+
+  &:hover ${Details} {
+    opacity: 1;
+  }
 `;
 const Round = styled.div`
   width: 200px;
@@ -20,21 +39,10 @@ const Round = styled.div`
   background-color: #fff;
   position: absolute;
 `;
-const Details = styled.div`
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #B6B2B2;
-  z-index: 3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
 const Icon = styled.div`
-  width: 60px
-  height: 60px;
+  width: 80px
+  height: 80px;
+  padding: 10px;
   border-radius: 50%;
   background-color: #fff;
   display: flex;
@@ -53,7 +61,6 @@ const Image = styled.img`
   object-fit: cover;
   z-index: 2;
   border-radius: 50%;
-  background-color: #F3F2F2;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -16,7 +16,7 @@ const Image = styled.img `
 const Title = styled.h1 `
     color: #fff;
     margin-bottom: 20px;
-    font-weight: 900;
+    font-weight: 600;
 `;
 const Detail = styled.div `
     position: absolute;
