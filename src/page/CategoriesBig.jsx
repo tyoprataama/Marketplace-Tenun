@@ -1,21 +1,21 @@
-import React from 'react';
+import React from 'react'
 import styled from 'styled-components';
-import { categories } from '../data';
+import { categoriesBig } from '../data';
 import CategoryItems from './CategoryItems';
-
-//  Styled sections
 const Container = styled.div`
     display: flex;
     padding: 20px;
-    justify-content: space-between;
-`;
+    margin-top: -40px;
+`
 
-const Categories = () => {
-return  <Container>
-        {categories.map(item=>(
+const CategoriesBig = () => {
+  return (
+    <Container>
+        {categoriesBig.map((item)=>(
             <CategoryItems item={item} key={item.id}/>
         ))}
     </Container>
+  )
 }
 
-export default Categories
+export default CategoriesBig

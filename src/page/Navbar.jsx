@@ -39,13 +39,19 @@ const SearchContainer = styled.div`
     align-items: center;
     margin-left: 25px;
     padding: 5px;
+    cursor: pointer;
 `;
 const Input = styled.input`
     border: none;
 `;
 const Logo = styled.h1`
-    font-weight: bold;
+    font-weight: 400;
     cursor: pointer;
+    letter-spacing: 3px;
+
+    &:hover {
+    color: #C4C4C4;
+    transition: all 0.5s ease;
 `;
 const ItemMenu = styled.div`
     font-size: 14;

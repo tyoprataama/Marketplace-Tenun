@@ -16,6 +16,7 @@ const Image = styled.img `
 const Title = styled.h1 `
     color: #fff;
     margin-bottom: 20px;
+    font-weight: 900;
 `;
 const Detail = styled.div `
     position: absolute;
@@ -30,11 +31,16 @@ const Detail = styled.div `
 `;
 const Button = styled.button `
     border: none;
-    padding: 10px;
+    padding: 10px 20px;
     background-color: white;
     color: black;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 700;
+
+    &:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all 0.5s ease;
 `;
 
 const CategoryItems = ({item}) => {

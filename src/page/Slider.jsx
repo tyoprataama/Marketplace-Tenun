@@ -67,11 +67,18 @@ const Prgrf = styled.p`
     font-weight: 400;
 `;
 const Button = styled.button `
-    font-size: 25px;
-    font-weight: 700;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
     background-color: transparent;
     cursor: pointer;
-    border: none;
+    border: 1px solid black;
+
+    &:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all 0.5s ease;
+  }
 `;
 
 const Slider = () => {
@@ -91,7 +98,7 @@ const Slider = () => {
         <Wrapper indexSlide={indexSlide}>
             {/* map item from data.js */}
             {ItemsSlider.map((item)=>(
-                <Slide bg={item.bg}>
+                <Slide bg={item.bg} key={item.id}>
             <ImageContainer>
                 <Image src={item.img}/>
             </ImageContainer>
