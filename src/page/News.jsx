@@ -12,12 +12,13 @@ const Container = styled.div`
   justify-content: center;
 `;
 const Title = styled.h1 `
-  font-size: 45px;
+  font-size: 35px;
   margin-bottom: 20px;
+  font-weight: 300;
 `;
 const Descriptions = styled.div `
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 200;
   margin-bottom: 20px;
 `;
 const InputContainer = styled.div `
@@ -38,6 +39,7 @@ const Button = styled.button`
   border: none;
   background-color: #000;
   color: #fff;
+  cursor: pointer;
 
   &:hover {
     background-color: #c4c4c4;
@@ -49,7 +51,7 @@ const Button = styled.button`
 const News = () => {
   return (
     <Container>
-      <Title>Notifications</Title>
+      <Title>NOTIFICATIONS</Title>
       <Descriptions>Get timely updates from your favorite products.</Descriptions>
       <InputContainer>
         <Input placeholder='Your Email'/>

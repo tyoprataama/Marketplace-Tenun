@@ -1,6 +1,7 @@
 import React from 'react';
 import Categories from './Categories';
 import CategoriesBig from './CategoriesBig';
+import Hero from './Hero';
 import Info from './Info';
 import Navbar from './Navbar';
 import News from './News';
@@ -15,6 +16,7 @@ const Home = () => {
           <Slider/>
           <Categories/>
           <CategoriesBig/>
+          <Hero/>
           <Products/>
           <News/>
       </div>

@@ -55,17 +55,17 @@ const ImageContainer = styled.div`
     height: 100%;
 `;
 const Title =  styled.h1`
-    font-size: 45px;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 300;
 `;
 const Description = styled.p `
     margin: 50px 0px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 300;
 `;
 const Prgrf = styled.p`
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 200;
 `;
 const Button = styled.button `
     padding: 20px;
