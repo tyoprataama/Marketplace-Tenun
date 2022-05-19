@@ -1,6 +1,8 @@
 import React from 'react';
 import Categories from './Categories';
 import CategoriesBig from './CategoriesBig';
+import Copyright from './Copyright';
+import Footer from './Footer';
 import Hero from './Hero';
 import Info from './Info';
 import Navbar from './Navbar';
@@ -19,6 +21,8 @@ const Home = () => {
           <Hero/>
           <Products/>
           <News/>
+          <Footer/>
+          <Copyright/>
       </div>
   )
 }

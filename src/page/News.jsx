@@ -5,7 +5,8 @@ import styled from 'styled-components';
 //  Styled sections
 const Container = styled.div`
   height: 60vh;
-  background-color: #fff;
+  background-color: #000;
+  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;

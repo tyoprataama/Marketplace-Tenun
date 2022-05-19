@@ -23,7 +23,7 @@ const Info = () => {
     timing='ease'
     iteration='infinite'
     fillMode='none'>
-        Super Deal! Free Shipping on Orders over Rp.100.000
+        This is the prototype web applications
     </MovingText>
     </Container>
   )
