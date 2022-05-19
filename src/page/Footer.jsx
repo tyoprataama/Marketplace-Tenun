@@ -51,6 +51,7 @@ const Title = styled.h3`
     margin-bottom: 30px
     font-weight: 200;
     margin-bottom: 15px;
+    font-size: 15px;
 `;
 const List = styled.ul`
     margin: 0;
@@ -64,6 +65,10 @@ const ListItem = styled.li`
     width: 50%;
     margin-bottom: 10px;
     cursor: pointer;
+
+    &:hover {
+        color: #c4c4c4;
+    }
 `;
 const Contact = styled.div`
     margin-bottom: 20px;
@@ -82,9 +87,8 @@ const Footer = () => {
             <Description>Tenun is a prototype platform for local sellers from Kediri City who wants to increase their business sales, especially in the apparel Batik sector. Made by love @ty000o who owned @numphy.ui</Description>
             <Sosmed>
                 <SosmedIcon color = '1DA1F2'>
-                    < Twitter />
+                   < Twitter />
                 </SosmedIcon>
-
                 <SosmedIcon color = 'E1306C'>
                     < Instagram />
                 </SosmedIcon>
@@ -100,7 +104,7 @@ const Footer = () => {
             
         </Left>
         <Center>
-            <Title>Navigate</Title>
+            <Title>NAVIGATE</Title>
             <List>
                 <ListItem>Home</ListItem>
                 <ListItem>Cart</ListItem>
@@ -115,7 +119,7 @@ const Footer = () => {
             </List>
         </Center>
         <Right>
-            <Title>Get in Touch</Title>
+            <Title>GET IN TOUCH</Title>
             <Contact><Room style={{marginRight:'10px'}}/> Kediri, East Java, INA</Contact>
              <Contact> <Phone style={{marginRight:'10px'}}/> 0354 123 123</Contact>
               <Contact><Email style={{marginRight:'10px'}}/> tyoprataama004@gmail.com</Contact>
