@@ -29,7 +29,11 @@ const Title = styled.h1 `
 `;
 const Descriptions = styled.p `
     margin: 20px 0px;
+    font-weight: 400;
 `;
+const Desc = styled.p`
+    font-weight: 200;
+`
 const Price = styled.span `
     font-weight: 100;
     font-size: 40px;
@@ -70,8 +74,6 @@ const Increase = styled.div`
     align-items: center;
     justify-content: space-between;
 `;
-const Decrease = styled.div`
-`;
 const AmountWrap = styled.div `
     display: flex;
     align-items: center;
@@ -105,6 +107,9 @@ const Button = styled.button`
     transition: all 0.5s ease;
     }
 `;
+const ImgSize = styled.img`
+    width: 70%;
+`
 
 const Product = () => {
   return (
@@ -117,9 +122,8 @@ const Product = () => {
             </ImgContainer>
             <InfoContainer>
                 <Title>Standard Short Sleeves Shirt - Blue Buds on Gray</Title>
-                <Descriptions>Men standard shirt with straight cutting (non-body fit).
-                    Suitable for casual or formal occasion.
-                    Fabrics of cotton hand-dyed Batik, ethically made in Indonesia.</Descriptions>
+                <Descriptions>SERIES:</Descriptions>
+                <Desc>32-MSDF-2343</Desc>
                 <Price>Rp 69.000</Price>
                 <FilterWrap>
                     <Filter>
@@ -148,7 +152,12 @@ const Product = () => {
                     </AmountWrap>
                     <Button>ADD </Button>
                 </Increase>
-
+                <Descriptions>DETAILS:</Descriptions>
+                <Desc>Men standard shirt with straight cutting (non-body fit).
+                Suitable for casual or formal occasion.
+                Fabrics of cotton hand-dyed Batik, ethically made in Indonesia.</Desc>
+                <Descriptions>SIZE & FIT INFORMATION (cm)</Descriptions>
+                <ImgSize src='https://i.ibb.co/wRcs4xc/Size.png'/>
             </InfoContainer>
         </Wrap>
         <News/>

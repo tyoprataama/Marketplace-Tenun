@@ -23,7 +23,7 @@ const Info = () => {
     timing='ease'
     iteration='infinite'
     fillMode='none'>
-        This is the prototype web applications
+        This is prototype web applications
     </MovingText>
     </Container>
   )
