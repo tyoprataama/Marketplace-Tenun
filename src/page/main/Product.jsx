@@ -88,12 +88,16 @@ const Amount = styled.span `
     margin: 0px 5px;
 `;
 const Button = styled.button`
-    padding: 15px;
+    padding: 10px 35px;
     border: 1px solid black;
     cursor: pointer;
     color: black;
     background-color: white;
-    font-weight: 500;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
 
     &:hover {
     background-color: black;
@@ -142,7 +146,7 @@ const Product = () => {
                         <Amount>1</Amount>
                         <Add/>
                     </AmountWrap>
-                    <Button>ADD TO CHART</Button>
+                    <Button>ADD </Button>
                 </Increase>
 
             </InfoContainer>
