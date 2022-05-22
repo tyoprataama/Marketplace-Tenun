@@ -156,7 +156,7 @@ const Product = () => {
                 <Desc>Men standard shirt with straight cutting (non-body fit).
                 Suitable for casual or formal occasion.
                 Fabrics of cotton hand-dyed Batik, ethically made in Indonesia.</Desc>
-                <Descriptions>SIZE & FIT INFORMATION (cm)</Descriptions>
+                <Descriptions>SIZE & FIT INFORMATION (cm):</Descriptions>
                 <ImgSize src='https://i.ibb.co/wRcs4xc/Size.png'/>
             </InfoContainer>
         </Wrap>
