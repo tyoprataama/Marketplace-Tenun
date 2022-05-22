@@ -87,10 +87,10 @@ const Amount = styled.span `
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0px 5px;
+    margin: 0px 25px;
 `;
 const Button = styled.button`
-    padding: 10px 35px;
+    padding: 10px 60px;
     border: 1px solid black;
     cursor: pointer;
     color: black;
