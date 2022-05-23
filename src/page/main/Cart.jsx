@@ -103,6 +103,7 @@ const Summary = styled.div `
     border: 0.5px solid black;
     padding: 20px;
     height: 50vh;
+    border-radius: 20px;
 `;
 const SummaryTitle = styled.h1`
     font-weight: 300;
@@ -123,6 +124,7 @@ const Button = styled.button`
     padding: 10px;
     background-color: white;
     border: 1px solid black;
+    cursor: pointer;
 
     &:hover {
         background-color: black;
