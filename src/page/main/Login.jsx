@@ -42,6 +42,7 @@ const Button = styled.button`
     align-items: center;
     justify-content: center;
     margin-bottom: 5px;
+    cursor: pointer;
 
     &:hover{
         background-color: black;
