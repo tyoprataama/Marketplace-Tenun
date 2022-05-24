@@ -4,11 +4,14 @@ import styled from 'styled-components';
 import Footer from '../Footer';
 import Info from '../Info';
 import Navbar from '../Navbar';
+import Copyright from '../Copyright';
+import { mobile } from '../responsive';
 
 const Container = styled.div`
 `;
 const Wrapper = styled.div`
     padding: 20px
+    ${mobile({padding: '10px'})}
 `;
 const Title = styled.h1 `
     font-weight: 300;
@@ -30,6 +33,7 @@ const TopBtn = styled.button `
     color: ${(props)=>props.type === 'filled' && 'white'};
 `;
 const TopTxtWrap = styled.div`
+ ${mobile({display: 'none'})}
 `;
 const TopTxt = styled.span `
     text-decoration: underline;
@@ -39,6 +43,7 @@ const TopTxt = styled.span `
 const Bottom = styled.div `
     display: flex;
     justify-content: space-between;
+    ${mobile({flexDirection: 'column'})}
 `;
 const Inform = styled.div `
     flex: 3;
@@ -46,6 +51,7 @@ const Inform = styled.div `
 const Product = styled.div `
     display: flex;
     justify-content: space-between;
+    ${mobile({flexDirection: 'column'})}
 `;
 const Image = styled.img `
     width: 200px;
@@ -83,6 +89,7 @@ const Price = styled.div `
 const ProductPrice = styled.div `
     font-size: 30px;
     font-weight: 200;
+    ${mobile({marginBottom: '20px'})}
 `;
 const ProductTotalContainer = styled.div`
     display: flex;
@@ -92,6 +99,7 @@ const ProductTotalContainer = styled.div`
 const ProductTotal = styled.div `
     font-size: 24px;
     margin: 5px;
+    ${mobile({margin: '5px 15px'})}
 `;
 const Line = styled.hr`
     background-color: black;
@@ -104,6 +112,8 @@ const Summary = styled.div `
     padding: 20px;
     height: 50vh;
     border-radius: 20px;
+    ${mobile({border: 'none'})}
+
 `;
 const SummaryTitle = styled.h1`
     font-weight: 300;
@@ -216,6 +226,7 @@ const Cart = () => {
             </Bottom>
         </Wrapper>
         <Footer/>
+        <Copyright/>
     </Container>
   )
 }
