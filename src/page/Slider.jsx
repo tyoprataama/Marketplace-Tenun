@@ -2,6 +2,7 @@ import { ArrowBackIosOutlined, ArrowForwardIosOutlined } from '@material-ui/icon
 import React, { useState } from 'react'
 import styled from 'styled-components';
 import { ItemsSlider } from '../data';
+import { mobile } from './responsive';
 
 //  Styled sections
 const Container = styled.div`
@@ -11,6 +12,7 @@ const Container = styled.div`
     background-color: #FFF;
     position: relative;
     overflow: hidden;
+    ${mobile({display: 'none'})}
 `;
 const Arrow = styled.div`
     width: 50px;

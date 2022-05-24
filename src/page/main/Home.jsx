@@ -1,6 +1,5 @@
 import React from 'react';
 import Categories from '../Categories';
-import CategoriesBig from '../CategoriesBig';
 import Copyright from '../Copyright';
 import Footer from '../Footer';
 import Hero from '../Hero';
@@ -17,7 +16,6 @@ const Home = () => {
           <Navbar/>
           <Slider/>
           <Categories/>
-          <CategoriesBig/>
           <Hero/>
           <Products/>
           <News/>

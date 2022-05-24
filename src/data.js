@@ -41,6 +41,11 @@ export const categories = [
         img: 'https://i.ibb.co/85sT6Pg/Categories2.png',
         title: 'WOMEN'
     },
+    {
+        id: 4,
+        img: 'https://i.ibb.co/Gcyg23v/Categories5.png',
+        title: 'GOODS'
+    }
 ];
 
 export const categoriesBig = [
