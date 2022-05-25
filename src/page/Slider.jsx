@@ -71,8 +71,8 @@ const Prgrf = styled.p`
 `;
 const Button = styled.button `
     padding: 20px;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
     background-color: transparent;
     cursor: pointer;
     border: 1px solid black;
