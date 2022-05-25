@@ -12,6 +12,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  ${mobile({padding: '10px'})}
 `;
 const Title = styled.h1 `
   font-size: 35px;
@@ -31,7 +32,7 @@ const InputContainer = styled.div `
   display: flex;
   justify-content: space-between;
   border: 1px solid lightgray;
-  ${mobile({width: '50%'})}
+  ${mobile({width: '70%'})}
 `;
 const Input = styled.input `
   border: none;

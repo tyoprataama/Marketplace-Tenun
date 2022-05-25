@@ -43,7 +43,7 @@ export const categories = [
     },
     {
         id: 4,
-        img: 'https://i.ibb.co/Gcyg23v/Categories5.png',
+        img: 'https://i.ibb.co/yndZFMf/Categories8.png',
         title: 'GOODS'
     }
 ];
