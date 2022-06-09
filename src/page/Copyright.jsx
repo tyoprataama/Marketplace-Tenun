@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+// Styling section
 const Container = styled.div `
     padding: 20px;
     display: flex;
